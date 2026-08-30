@@ -2302,9 +2302,7 @@ nav ul li.dropdown:hover .dropdown-menu {
         padding: 15px 5%;
     }
 
-    .nav-buttons {
-        display: none;
-    }
+
 
     nav ul {
         gap: 12px;
@@ -2510,9 +2508,16 @@ nav ul li.dropdown:hover .dropdown-menu {
         white-space: nowrap;
     }
 
-    .nav-buttons {
-        display: none;
-    }
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.nav-buttons a {
+    padding: 8px 14px;
+    font-size: 13px;
+}
 
 /* ==================== Brand Cards ==================== */
 
