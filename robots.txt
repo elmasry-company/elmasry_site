@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://elmasry-company.github.io/elmasry_site/sitemap.xml
